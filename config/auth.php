@@ -46,6 +46,10 @@ return [
             'provider' => 'users',
             'hash' => false,
         ],
+        'wb' => [
+            'driver' => 'jwt',
+            'provider' => 'wbusers',
+        ]
     ],
 
     /*
@@ -70,7 +74,10 @@ return [
             'driver' => 'eloquent',
             'model' => App\User::class,
         ],
-
+        'wbusers' => [
+            'driver' => 'eloquent',
+            'model' => App\Wb\WbUser::class,
+        ]
         // 'users' => [
         //     'driver' => 'database',
         //     'table' => 'users',
@@ -95,6 +102,11 @@ return [
     'passwords' => [
         'users' => [
             'provider' => 'users',
+            'table' => 'password_resets',
+            'expire' => 60,
+        ],
+        'wbusers' => [
+            'provider' => 'wbusers',
             'table' => 'password_resets',
             'expire' => 60,
         ],
