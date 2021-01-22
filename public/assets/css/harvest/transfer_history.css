@@ -1,0 +1,7 @@
+hr.first{
+    position: relative; 
+    top: 0px; 
+    border: none;
+    height: 3px;
+    background: #e2e2e2; 
+}

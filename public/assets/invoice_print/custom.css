@@ -1,0 +1,64 @@
+.page-break {
+    page-break-after: always;
+  }
+.sign-wrapper {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body{
+  display: block;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  }
+
+.signature-pad {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 200px;
+  border: 1px solid #03b1dd;
+}
+@media print {
+  .pdf_area * { display:none; }
+  .panel-close-btn * { display:none; }
+  table{
+    font-size:1vw;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+}
+.panel-header{
+    padding:10px;
+    background:#e2e2e2;
+}
+.panel-logo{
+    width:120px;
+    height:120px;
+}
+.panel-card > p{
+    margin-bottom:0;
+}
+.panel-card .bolder{
+    font-size:14px;
+    font-weight: bolder;
+}
+.panel-card .light{
+    font-size:14px;
+}
+.invoice-info{
+    margin-top:10px;
+}
+.col-print-4{
+    width:33%; float:left;
+}
+.col-print-12{
+    width:100%; float:left;
+}

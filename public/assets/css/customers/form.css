@@ -1,0 +1,66 @@
+.makeBtn{
+    display: block;
+    margin:0 auto;
+}
+.main-panel{
+    -moz-box-shadow: 0 0 7px #888;
+    -webkit-box-shadow: 0 0 7px#888;
+    box-shadow: 0 0 7px #888;
+}
+hr.first{
+    position: relative; 
+    top: 0px; 
+    border: none;
+    margin:1em 0;
+    height: 3px;
+    background: #e2e2e2; 
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #00a65a; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #00a65a; 
+}
+.addBtn{
+    margin-top:25px;
+}
+
+.box-title{
+    color:#03b1dd;
+}
+
+.temp_table_panel{
+    margin-top:0;
+    height:250px;
+    overflow-y: scroll;
+    width:98%;
+}
+
+.select2-container--default .select2-selection--single, .select2-selection .select2-selection--single {
+    border: 1px solid #d2d6de;
+    border-radius: 0;
+    padding: 6px 12px;
+    height: 34px;
+    font-size: x-small !important;
+}
+.select2-results {
+    display: block;
+    font-size: x-small !important;
+}
+.table-bordered {
+    border: 1px solid #f4f4f4;
+    font-size: x-small !important;
+}

@@ -1,0 +1,20 @@
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.file-upload-content{
+    text-align: center;
+    padding: 6.25rem 0;
+}
+.file-upload-content > label{
+
+    font-size: 30px !important;
+}

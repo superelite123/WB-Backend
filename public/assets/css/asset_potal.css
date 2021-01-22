@@ -1,0 +1,15 @@
+.fixed_header tbody {
+    display:block;
+    height:400px;
+    overflow:auto;
+    text-align:center;
+}
+.fixed_header thead, .fixed_header tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+.fixed_header thead {
+    width: calc( 100% - 1em );
+    text-align:center;
+}

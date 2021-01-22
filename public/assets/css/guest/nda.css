@@ -1,0 +1,76 @@
+#sig-canvas {
+    border: 2px dotted #CCCCCC;
+    border-radius: 15px;
+    cursor: crosshair;
+}
+.saveInfo{
+    margin-top:20px;
+}
+.banner{
+    padding: 7px;
+    background-color: #e2e2e2;
+}
+.logo-panel{
+    vertical-align: middle;
+    padding: 10px 5px;
+}
+.img-logo{
+    width:90px;
+    height:69px;
+}
+.logo-title{
+    color: #5c5d5d;
+    font-size: 20px;
+    margin-left:10px;
+}
+.doc-title{
+    text-align:center;
+}
+.paragraph{
+    margin-bottom:20px;
+}
+.paragraph-title{
+    margin:0px 0px;
+}
+.paragraph-section{
+    margin-left:60px;
+}
+.paragraph-section > ordermark{
+    margin-right:20px;
+}
+.walnut-sign{
+    width: 200px;
+    height: 80px;
+    border: 1px;
+}
+.form-panel{
+    margin-bottom:50px;
+}
+.visitor-info{
+    font-size: 12px;
+}
+
+#video {
+    border-radius: 25px;
+    border: 2px dotted #929292;
+    padding: 20px; 
+    width: 100%;
+    height: 300px; 
+    background-color:#fff
+}
+
+#photo {
+    border-radius: 25px;
+    border: 2px dotted #929292;
+    width:100%;
+    height:300px;
+    margin-top:30px;
+}
+
+#canvas {
+    display:none;
+}
+
+.output {
+    width: 340px;
+}

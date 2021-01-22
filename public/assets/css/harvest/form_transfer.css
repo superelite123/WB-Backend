@@ -1,0 +1,16 @@
+hr.first{
+    position: relative; 
+    top: 0px; 
+    border: none;
+    height: 3px;
+    background: #e2e2e2; 
+}
+#add_row{
+    margin-top:25px
+}
+
+.temp_table_panel{
+    height:500px;
+    overflow-y: scroll;
+    width: calc(100% - 1em);
+}

@@ -1,0 +1,9 @@
+.top-line{
+    margin-bottom:3em;
+}
+th,td{
+    text-align: center;
+}
+.makeBtn{
+    align-self: center;
+}

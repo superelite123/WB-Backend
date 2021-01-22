@@ -1,0 +1,57 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use DB;
+class FGInventory extends Model
+{
+    //
+    protected $table = "fginventory";
+    protected $primaryKey = "fgasset_id";
+    protected $fillable = ['strainname','upc_fk','batch_fk','coa','coafil_fk','um','weight','qtyonhand','parent_id'];
+
+    public static function get_items()
+    {
+        // ->join('strainname','fginventory.strainname','=','strainname.itemname_id')
+        // ->join('productcategory','productcategory.producttype_id','=','asset_type_id')
+        return FGInventory::select('fginventory.*',DB::raw(
+                    "concat(
+                        concat(
+                            concat('UPC-',invupccont.upc),
+                            concat(',Metrc-',COALESCE(fginventory.metrc_tag, 'NULL'),','),
+                            concat(invupccont.strain,',',invupccont.type)
+                        ),
+                        ',Harvested-',
+                        fginventory.harvested_date) AS description")
+                    )
+                    ->join('invupccont','iteminv_id','=','upc_fk')
+                    ->orderby('fginventory.harvested_date')
+                    ->get();
+    }
+
+    public function Strain()
+    {
+        return $this->belongsTo(Strainame::class,'strainname');
+    }
+
+    public function AssetType()
+    {
+        return $this->belongsTo(Producttype::class,'asset_type_id');
+    }
+
+    public function UnitOfWeight()
+    {
+        return $this->belongsTo(Unit::class,'um');
+    }
+
+    public function Room()
+    {
+        return $this->belongsTo(LocationArea::class,'cultivator_company_id');
+    }
+
+    public function invoiceItems()
+    {
+        return $this->hasMany(InvioceItem::class,'item_id');
+    }
+}

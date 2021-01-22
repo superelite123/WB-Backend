@@ -1,0 +1,48 @@
+.scrollDiv{
+    /* height: 550; */
+    /*overflow-y: scroll; */
+}
+
+#tip {
+    background-color: white;
+    position: absolute;
+    /* border-radius: 25px; */
+    border: 2px solid #73AD21;
+    left: -200px;
+    top: 100px;
+    width: 220px;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+.top_bar{
+    margin-bottom:20px
+}
+.top_bar span{
+    font-size: 18px;
+}
+.th_tr{
+    font-weight: bold;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;    
+}
+
+.circle_red
+{
+    background: red;
+}
+.circle_green
+{
+    background: green;
+}
+.circle_yellow
+{
+    background: yellow;
+}

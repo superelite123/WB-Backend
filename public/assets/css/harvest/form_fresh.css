@@ -1,0 +1,38 @@
+body{ 
+    font-size : 140%; 
+}
+
+.top-line,.add-line{
+    border-bottom:2px solid #f4f4ff;
+    margin-top:1em;
+}
+
+.label-temp_table_panel{
+    font-size: 180%;
+    color: #00acd6;
+}
+#add_row{
+    margin-top:1.5em;
+}
+.count_panel{
+    font-size: 3em;
+}
+
+.temp_table_panel{
+    height:260px;
+    overflow-y: scroll;
+    width: calc(100% - 1em);
+}
+
+hr.first{
+    position: relative; 
+    top: 0px; 
+    border: none;
+    margin:0 0;
+    height: 3px;
+    background: #e2e2e2; 
+}
+.makeBtn{
+    display: block;
+    margin:1em auto;
+}

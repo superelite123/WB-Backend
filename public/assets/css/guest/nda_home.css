@@ -1,0 +1,31 @@
+.invoice{
+    height:96%
+}
+.top{
+    height:30%
+}
+.email_addres{
+    height:30%;
+    margin-top:10%
+}
+#sig-canvas{
+    border:solid 1px #00acd6;
+    border-radius: 25px;
+}
+
+.banner{
+    padding: 7px;
+    background-color: #e2e2e2;
+}
+.img-logo{
+    width:90px;
+    height:69px;
+}
+.logo-title{
+    color: #5c5d5d;
+    font-size: 20px;
+    margin-left:10px;
+}
+.signature-panel{
+    display:none
+}

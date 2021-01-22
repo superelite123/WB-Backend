@@ -1,0 +1,23 @@
+[2020-05-11 00:30:08] local.ERROR: Command "config:cacge" is not defined.
+
+Did you mean one of these?
+    config:cache
+    config:clear
+    event:cache
+    route:cache
+    view:cache {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"config:cacge\" is not defined.
+
+Did you mean one of these?
+    config:cache
+    config:clear
+    event:cache
+    route:cache
+    view:cache at /home/cannavisionlb/beta1/vendor/symfony/console/Application.php:646)
+[stacktrace]
+#0 /home/cannavisionlb/beta1/vendor/symfony/console/Application.php(236): Symfony\\Component\\Console\\Application->find('config:cacge')
+#1 /home/cannavisionlb/beta1/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/cannavisionlb/beta1/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/cannavisionlb/beta1/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/cannavisionlb/beta1/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 

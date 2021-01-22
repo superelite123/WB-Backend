@@ -1,0 +1,22 @@
+.modal-content {
+    border-radius: 0px;
+    box-shadow: 0 0 20px 8px rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-backdrop.show {
+    opacity: 0.0;
+  }
+  table.dataTable {
+    clear: both;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+    border-collapse: separate !important;
+    font-size: xx-small !important;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: xx-small !important;
+}
+

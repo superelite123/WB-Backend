@@ -1,0 +1,48 @@
+hr.first{
+    position: relative; 
+    top: 0px; 
+    border: none;
+    height: 3px;
+    background: #e2e2e2; 
+}
+.dashboard{
+    font-size: 140%;
+    text-align: center;
+}
+
+.tag{
+    color:#00c0ef
+}
+
+.pending{
+    color:#00c0ef
+}
+.archived{
+    color:#00a65a;
+}
+.stockimg{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+}
+.stockimg1{
+    width:50px;
+    height: 50px;
+}
+
+@media print {
+    .topbar{
+      display: none;
+    }
+    #DivToPrint {
+      left: 0;
+      top: 0;
+    }
+    @page{
+      size:  auto;
+      margin: 0mm;
+    }
+    a[href]:after {
+        content: none !important;
+      }
+}

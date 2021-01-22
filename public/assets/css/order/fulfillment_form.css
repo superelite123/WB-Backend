@@ -1,0 +1,63 @@
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00a65a; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #00a65a; 
+}
+.main-panel{
+    -moz-box-shadow: 0 0 7px #888;
+    -webkit-box-shadow: 0 0 7px#888;
+    box-shadow: 0 0 7px #888;
+}
+.req_list_panel{
+    margin-top:0;
+    height:450px;
+    overflow-y: scroll;
+    width:98%;
+}
+.inventory_panel{
+    margin-top:0;
+    height:550px;
+    overflow-y: scroll;
+    width:98%;
+}
+.backtolist{
+    margin-bottom:5px;
+    margin-right:20px;
+}
+.content{
+    padding-top: 0px;
+}
+.box-title{
+    color: #03b1dd;
+}
+.req_item_list_title{
+    color: #03b1dd;
+    margin-top:0px;
+}
+.btnSearch{
+    margin-top:20px;
+}
+.input_scanned{
+    margin-bottom: 0px;
+}
+.green_row{
+    color:#00a65a
+}
+.blue_row{
+    color:#00c0ef
+}
+.red_row{
+    color:#FF6666
+}
+.checked_row{
+    text-align:center
+}

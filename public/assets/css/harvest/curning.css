@@ -1,0 +1,7 @@
+.dataTable {
+    font-family: 'tahoma';
+    font-size: 1.0em;
+}
+.red_placeholder::-webkit-input-placeholder {
+    color: #ff0000
+}
