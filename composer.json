@@ -18,6 +18,7 @@
         "barryvdh/laravel-dompdf": "^0.8.5",
         "daltcore/lara-pdf-merger": "^2.0",
         "fideloper/proxy": "^4.0",
+        "fruitcake/laravel-cors": "^2.0",
         "jeroennoten/laravel-adminlte": "^1.26",
         "laracasts/flash": "^3.0",
         "laracasts/utilities": "^3.0",
