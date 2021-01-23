@@ -13,10 +13,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+        $this->call([
+            //RoleAndPermissionSeeder::class,
+            WbUserSeeder::class,
+        ]);
         // $this->call(RolesTabelSeeder::class);
         // $this->call(UsersTableSeeder::class);
         // Ask for db migration refresh, default is no
-        Permission::create(['name' => 'Product Type']);
+        // Permission::create(['name' => 'Product Type']);
         // $permissions = [
         //     'add Order',
         //     'edit Order',
